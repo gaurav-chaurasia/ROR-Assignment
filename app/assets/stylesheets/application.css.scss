@@ -20,11 +20,66 @@
   position: relative;
   align-items: center;
 }
-.brand{
-  font-size:large;
+#logo{
+ Cursor:text !important;
+ Text-Decoration: None !important;
+ font-size:-webkit-xxx-large;
+}
+#logo:hover {
+  color: green;
+  transition-duration: 1.5s;
+}
+.product-details {
+  // margin: 2rem;
+  margin-left: 20rem;
+}
+.product-heading {
+  margin-left: 30rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.new-product {
+  margin-left: 31rem
+}
+.field {
+  margin-left: 26rem;
+  font-size: initial;
+  position: relative;
+  align-items: center;
+}
+.actions {
+  margin-left: 31rem;
+}
+.actions input {
+  border: none;
+  opacity: 70%;
+  background-color: white;
+}
+
+input{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
+}
+.actions1 {
+  margin-left: 33rem;
 }
 .btn:hover {
   text-decoration: none;
-  background-color: #2a2b2b;
-  color: #fff;
+  background-color: black;
+  color: green;
+  transition-duration: 1s;
 }
+.navbar {
+  box-shadow: 0px 1px 5px 1px #dbdbdb;
+}
+
+.container h2 ,h3 {
+  margin-left: 30rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+// .temp a {
+//   margin-left: 26rem;
+// }
