@@ -68,8 +68,11 @@ input{
 .btn:hover {
   text-decoration: none;
   background-color: black;
-  color: green;
+  color: #fff;
   transition-duration: 1s;
+}
+.btn{
+  text-decoration: none;
 }
 .navbar {
   box-shadow: 0px 1px 5px 1px #dbdbdb;
