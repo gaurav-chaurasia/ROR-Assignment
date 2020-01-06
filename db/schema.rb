@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2020_01_05_125838) do
     t.integer "item_id"
     t.float "cost"
     t.string "purpose"
+    t.string "out_of_stock"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "user_id"
