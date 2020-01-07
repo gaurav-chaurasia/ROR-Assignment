@@ -30,11 +30,10 @@
   transition-duration: 0.5s;
 }
 .product-details {
-  // margin: 2rem;
-  margin-left: 20rem;
+  padding-left: 20rem;
 }
 .product-heading {
-  margin-left: 30rem;
+  padding-left: 30rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -42,13 +41,15 @@
   margin-left: 31rem
 }
 .field {
-  margin-left: 26rem;
+  padding-left: 26rem;
   font-size: initial;
   position: relative;
   align-items: center;
+  justify-content: center;
 }
 .actions {
-  margin-left: 31rem;
+  // margin-left: 31rem;
+  padding-left: 31rem;
 }
 .actions input {
   border: none;
@@ -79,7 +80,8 @@ input{
 }
 
 .container h2 ,h3 {
-  margin-left: 30rem;
+  // margin-left: 30rem;
+  padding-left: 30rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }

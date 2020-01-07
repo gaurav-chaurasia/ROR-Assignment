@@ -37,9 +37,15 @@ div {
     margin-bottom: 10px;
   }
 }
-
+.notice {
+  margin-left: -3rem;
+  // margin-right: -12rem;
+  visibility: hidden;
+}
 #notice {
   color: green;
+  margin-top: 1rem;
+  padding-left: 29rem;
 }
 
 .field_with_errors {
