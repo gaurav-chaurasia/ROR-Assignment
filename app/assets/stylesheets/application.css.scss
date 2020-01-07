@@ -25,10 +25,23 @@
  Text-Decoration: None !important;
  font-size:-webkit-xxx-large;
 }
-#logo:hover {
+
+#logo {
+  margin: 10px;
+  background-size: 200% auto;
+  width: 20rem;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  display: inline-block;
+  color: black;
+  opacity: 60%;
+}
+#logo:hover{
+  margin: 8px 10px 12px;
   color: green;
   transition-duration: 0.5s;
 }
+
+
 .product-details {
   padding-left: 20rem;
 }
@@ -88,7 +101,4 @@ input{
 // .temp a {
 //   margin-left: 26rem;
 // }
-#logo {
-  color: black;
-  opacity: 60%;
-}
+
